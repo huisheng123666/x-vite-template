@@ -36,7 +36,8 @@
   "lint-staged": {
     "*.{js,jsx,vue,ts}": [
       "npm run gen",
-      "npm run lint"
+      "npm run lint",
+      "git add"
     ]
   }
 }
