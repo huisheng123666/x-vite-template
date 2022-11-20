@@ -7,10 +7,6 @@ const count = ref(0)
 
 function add() {
   console.log(3434);
-  console.log(4545);
-  console.log(4545);
-  console.log(4545);
-  console.log(4545);
 }
 
 add()
