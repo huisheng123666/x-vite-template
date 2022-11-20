@@ -6,11 +6,7 @@ defineProps<{
 const count = ref(0)
 
 function add() {
-  console.log(3434);
 }
-
-const a = 4345
-const b = 4345
 
 add()
 </script>
