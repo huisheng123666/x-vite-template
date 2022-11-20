@@ -33,6 +33,11 @@
     "vite": "^3.2.3",
     "vite-plugin-eslint": "^1.8.1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "npm run gen",
