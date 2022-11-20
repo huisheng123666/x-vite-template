@@ -34,7 +34,8 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "lint-staged": {
-    "*.{jsx,vue}": [
+    "*.{js,jsx,vue}": [
+      "npm run gen",
       "npm run lint",
       "git add"
     ]
