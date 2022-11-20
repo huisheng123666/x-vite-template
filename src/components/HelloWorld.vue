@@ -9,6 +9,8 @@ function add() {
   console.log(3434);
 }
 
+const a = 4345
+
 add()
 </script>
 
