@@ -10,6 +10,7 @@ function add() {
 }
 
 const a = 4345
+const b = 4345
 
 add()
 </script>
